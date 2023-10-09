@@ -1,0 +1,44 @@
+.main_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main_container .text_btn {
+  display: flex;
+  gap: 10px;
+}
+
+.main_container .text_btn input {
+  padding: 10px 20px;
+  width: 400px;
+  font-size: 1.3rem;
+  border: 1px solid #ccc;
+  outline: none;
+  border-radius: 10px;
+  color: orange;
+}
+
+.main_container .text_btn button {
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  background: #232;
+  color: #fff;
+  outline: none;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.main_container .range_checkbox {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  font-size: 1.3rem;
+}
+
+.main_container .copy {
+  margin-top: 1.5rem;
+}
